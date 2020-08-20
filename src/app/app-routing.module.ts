@@ -17,10 +17,6 @@ const routes: Routes = [
   },
   {
     path: 'navegacao2',
-    loadChildren: () => import('./navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
-  },
-  {
-    path: 'navegacao2',
     loadChildren: () => import('./pages/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
   }
 ];
