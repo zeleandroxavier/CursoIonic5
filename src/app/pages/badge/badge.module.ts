@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPageRoutingModule } from './alert-routing.module';
+import { BadgePageRoutingModule } from './badge-routing.module';
 
-import { AlertPage } from './alert.page';
+import { BadgePage } from './badge.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertPageRoutingModule
+    BadgePageRoutingModule
   ],
-  declarations: [AlertPage]
+  declarations: [BadgePage]
 })
-export class AlertPageModule {}
+export class BadgePageModule {}
