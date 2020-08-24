@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-list',
   templateUrl: './list.page.html',
@@ -7,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListPage implements OnInit {
 
+  frutas: string[] = ['Maça','Abacate','Caqui'];
+  
   constructor() { }
 
   ngOnInit() {
