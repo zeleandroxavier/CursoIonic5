@@ -91,6 +91,11 @@ export class AppComponent implements OnInit {
       title: 'ProgressBar',
       url: 'progressbar',
       icon: 'construct'
+    },
+    {
+      title: 'Refresher',
+      url: 'refresher',
+      icon: 'construct'
     }  
 
   ];
