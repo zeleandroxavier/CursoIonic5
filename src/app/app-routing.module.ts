@@ -82,6 +82,10 @@ const routes: Routes = [
   {
     path: 'refresher',
     loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule)
+  },
+  {
+    path: 'reorder',
+    loadChildren: () => import('./pages/reorder/reorder.module').then( m => m.ReorderPageModule)
   }
 ];
 

@@ -13,10 +13,10 @@ export class RefresherPage implements OnInit {
   }
 
   doRefresh(event) {
-    console.log('Begin async operation');
+    console.log('Inicio do Processamento');
 
     setTimeout(() => {
-      console.log('Async operation has ended');
+      console.log('Fim do processamendo');
       event.target.complete();
     }, 2000);
   }

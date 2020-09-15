@@ -8,27 +8,67 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
-    <ion-refresher-content></ion-refresher-content>
-  </ion-refresher>
-</ion-content>
-
-<!-- Custom Refresher Properties -->
-<ion-content>
-  <ion-refresher slot="fixed" pullFactor="0.5" pullMin="100" pullMax="200">
-    <ion-refresher-content></ion-refresher-content>
-  </ion-refresher>
-</ion-content>
-
 <!-- Custom Refresher Content -->
 <ion-content>
   <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
     <ion-refresher-content
       pullingIcon="chevron-down-circle-outline"
-      pullingText="Pull to refresh"
+      pullingText="Puxe para atualizar!"
       refreshingSpinner="circles"
-      refreshingText="Refreshing...">
+      refreshingText="Atualizando...">
     </ion-refresher-content>
   </ion-refresher>
+  <ion-list>
+    <ion-item>
+      <ion-label>Item 1</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 2</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 3</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 4</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 5</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 6</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 6</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 7</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 8</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 9</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 10</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 11</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 12</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 13</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 14</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 15</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Item 16</ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
